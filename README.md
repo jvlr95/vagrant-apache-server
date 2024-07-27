@@ -26,7 +26,7 @@ This repository provides a basic Vagrant setup for configuring an Apache web ser
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/jvlr95/vagrant-apache-server
+   git clone git@github.com:jvlr95/vagrant-apache-server.git
    cd vagrant-apache-server
    ```
 
@@ -106,7 +106,7 @@ Este repositório fornece uma configuração básica do Vagrant para configurar 
 1. **Clone o Repositório:**
 
    ```bash
-   git clone https://github.com/seuusuario/vagrant-apache-server.git
+   git clone git@github.com:jvlr95/vagrant-apache-server.git
    cd vagrant-apache-server
    ```
 
