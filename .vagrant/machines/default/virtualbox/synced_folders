@@ -1,1 +1,0 @@
-{"virtualbox":{"/var/www/html":{"guestpath":"/var/www/html","hostpath":"/mnt/samba-server/var/www/html","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"/home/jrodrigues/Documents/Anotacoes/Vagrant_SlackJeff/debian_12","disabled":false,"__vagrantfile":true}}}
