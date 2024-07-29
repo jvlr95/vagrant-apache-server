@@ -4,7 +4,8 @@ Vagrant.configure("2") do |config|
   # Server Web Apache
   config.vm.define "web" do |web|
     web.vm.hostname = "server-web"
-    web.vm.synced_folder "/mnt/samba-server/var/www/html/", "/var/www/html"
+
+    web.vm.synced_folder "/mnt/samba-server/var/www/html/", "/var/www/html/", type: "rsync"
     web.vm.network "forwarded_port", guest: 80, host: 8090
     web.vm.network "private_network", ip: "192.168.1.105"
 
